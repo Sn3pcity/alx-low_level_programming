@@ -1,1 +1,1 @@
-Intel Syntax code
+Unix
