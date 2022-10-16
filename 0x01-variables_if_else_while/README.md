@@ -1,1 +1,1 @@
-Write a program that prints all possible different combinations of two digits.
+3 diff combinations
