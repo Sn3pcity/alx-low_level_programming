@@ -1,1 +1,1 @@
-9. Patience, persistence and perspiration make an unbeatable combination for success
+Write a program that prints all possible different combinations of two digits.
