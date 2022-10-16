@@ -1,4 +1,4 @@
-#tdio.h>
+#include <stdio.h>
 /**
  * main - print numbers from 00 to 99.
 (*
@@ -24,7 +24,7 @@ putchar('\n');
 else
 {
 putchar(',');
-putchar(' ');
+putchar(',');
 }
 }
 j++;
