@@ -6,12 +6,12 @@
  */
 int main(void)
 {
-char *sh = "Main";
+char *h = "_putchar";
 
-while (*sh)
+while (*h)
 {
-_putchar(*sh);
-sh++;
+_putchar(*h);
+h++;
 }
 _putchar('\n');
 
