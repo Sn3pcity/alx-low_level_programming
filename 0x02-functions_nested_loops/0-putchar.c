@@ -1,9 +1,12 @@
-#include <main.h>
-/*program to print _putchar*/
-
+#include "main.h"
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-char *sh = "_putchar";
+char *sh = "Main";
 
 while (*sh)
 {
@@ -11,5 +14,6 @@ _putchar(*sh);
 sh++;
 }
 _putchar('\n');
+
 return (0);
 }
