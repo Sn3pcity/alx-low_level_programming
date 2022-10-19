@@ -9,15 +9,15 @@ void print_to_98(int n)
 {
 if (n >= 98)
 {
-while (n > 98)
-putchar("%d, ", n--);
-putchar("%d\n", n);
+  while (n >98)
+scanf("%d, ", n--);
+scanf("%d\n", n);
 }
 
 else
 {
 while (n < 98)
-putchar("%d, ", n++);
-putchar("%d\n", n);
+scanf("%d, ", n++);
+scanf("%d\n", n);
 }
 }
