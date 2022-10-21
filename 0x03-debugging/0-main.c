@@ -1,9 +1,10 @@
-#include <main.h>
+#include "main.h"
+
 /**
- * main - Determine if a random number is positive, negative or zero.
-(*
-* Return: 0 on success
-*/
+ * main - tests function that prints if integer is positive or negative
+ * Return: 0
+ */
+
 int main(void)
 {
 int i;
