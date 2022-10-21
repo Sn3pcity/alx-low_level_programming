@@ -6,7 +6,7 @@
 (*
 * Return: 0 on success
 */
-positive_or_negative()
+int main(void)
 {
 int n;
 
