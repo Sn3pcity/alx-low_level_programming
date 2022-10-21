@@ -9,8 +9,9 @@
  */
 int largest_number(int a, int b, int c)
 {
+  int a, b, c;
 int largest;
-int a = 972;
+a = 972;
 b = -98;
 c = 0;
 if (a >= b && a >= c)
