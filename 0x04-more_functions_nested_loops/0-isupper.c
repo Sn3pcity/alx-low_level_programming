@@ -7,12 +7,12 @@
 
 int_isupper(int c);
 {
-char uppercase = 'A';
+char c = 'A';
 int isupper = 0;
 
-for (; uppercase <= 'Z'; uppercase++)
+for (; c <= 'Z'; c++)
 {
-if (c == uppercase)
+if (c == c)
 {
 isupper = 1;
 break;
