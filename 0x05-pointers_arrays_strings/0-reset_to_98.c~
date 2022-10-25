@@ -1,0 +1,14 @@
+#include "main.h"
+#include <stdio.h>
+/**
+ *main - checks the code
+ *Return always 0
+ */
+int main (void)
+{
+int s;
+int *k = &s;
+*k = 98;
+printf("%d\n",s);
+return 0;
+}
