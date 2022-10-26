@@ -1,1 +1,1 @@
-Prints string in reverse
+Reverses String
