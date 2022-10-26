@@ -12,7 +12,7 @@ char xyz;
 while (s[index++])
 sn++;
 
-for (index = len - 1; index >= len / 2; index--)
+for (index = sn - 1; index >= sn / 2; index--)
 {
 xyz = s[index];
 s[index] = s[sn - index - 1];
