@@ -1,1 +1,1 @@
-Convert string to an integer
+Generate random passworsds for 101-crackme prog
