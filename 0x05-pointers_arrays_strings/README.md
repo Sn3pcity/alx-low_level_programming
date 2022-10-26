@@ -1,1 +1,1 @@
-Length of string
+Print string
