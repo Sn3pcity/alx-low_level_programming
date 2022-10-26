@@ -9,12 +9,12 @@
  */
 char *_strcpy(char *dest, const char *src)
 {
-int snap = 0;
+int index = 0;
 
-while (src[snap])
+while (src[index])
 {
-dest[snap] = src[snap];
-snap++;
+dest[index] = src[index];
+index++;
 }
 
 return (dest);
