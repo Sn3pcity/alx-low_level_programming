@@ -1,1 +1,1 @@
-Reverses String
+Print every char in a string
