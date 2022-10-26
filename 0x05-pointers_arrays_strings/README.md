@@ -1,1 +1,1 @@
-Print every char in a string
+Prints half the chars
