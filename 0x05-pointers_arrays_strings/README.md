@@ -1,1 +1,1 @@
-Print n elements of an array
+Copies string to dest buffer
