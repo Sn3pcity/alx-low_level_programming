@@ -1,1 +1,1 @@
-Prints half the chars
+Print n elements of an array
