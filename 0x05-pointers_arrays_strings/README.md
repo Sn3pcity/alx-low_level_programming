@@ -1,1 +1,1 @@
-Copies string to dest buffer
+Convert string to an integer
