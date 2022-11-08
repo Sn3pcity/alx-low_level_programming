@@ -1,4 +1,4 @@
 #!/bin/bash
-gcc -c *.c
-ar -rc libmy.a *.o
+gcc -c main.h -o main.h.o
+ar -rcs libmy.a main.h.o
 
