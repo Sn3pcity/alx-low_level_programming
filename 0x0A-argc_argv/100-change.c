@@ -2,10 +2,10 @@
 #include <stdlib.h>
 #include <ctype.h>
 /**
- * main -program dat prints the min no.of coins to make change for an amount of money
+ * main -prints min no of coins making change for an amount of money
  * @argc: argument counter
  * @argv: argument values
- * Return: 1 if no.of arguments passed is not exact or 0 in otherwise
+ * Return: 1 if no of arguments passed is not exact or 0 in otherwise
 */
 
 int main(int argc, char **argv)
