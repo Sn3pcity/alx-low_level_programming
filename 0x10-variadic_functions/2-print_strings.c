@@ -16,10 +16,12 @@ unsigned int s;
 char *str;
 va_list sa;/** *variable(sa) to access the unnamed arguments**/
 
-va_start(sa, n);/** *1st is var on va_list&2nd is name of last named parameter of function**/
+va_start(sa, n);
+/** *1st is var on va_list&2nd is name of last named parameter of function**/
 for (s = 0; s < n; s++)
 {
-str = va_arg(sa, char*);/** *1st argument is va_list,2nd is type of nxt argument passed to function.**/
+str = va_arg(sa, char*);
+/** *1st argument is va_list,2nd is type of nxt argument passed to function.**/
 if (str == NULL)
 printf("(nil)");
 else
