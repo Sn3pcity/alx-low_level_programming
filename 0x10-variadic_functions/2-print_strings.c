@@ -16,20 +16,21 @@ unsigned int s;
 char *str;
 va_list sa;
 
+va_start(sa, n);
 for (s = 0; s < n; s++)
 {
-if (separator == NULL)
-return;
-if (s < n - 1)
-printf("%s", separator);
-
-va_start(sa, n);
 str = va_arg(sa, char*);
 if (str == NULL)
 printf("(nil)");
 else
 printf("%s", str);
+
+if (separator == NULL)
+return;
+if (s < n - 1)
+printf("%s", separator);
 }
+
 printf("\n");
 va_end(sa);
 }
