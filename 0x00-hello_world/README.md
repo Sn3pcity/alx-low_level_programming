@@ -1,9 +1,9 @@
 # 0x00. C - Hello, World
 C
-By: Julien Barbier
-Weight: 1
-Project over - took place from Oct 14, 2022 6:00 AM to Oct 15, 2022 6:00 AM
-An auto review will be launched at the deadline
+*By: Julien Barbier
+*Weight: 1
+*Project over - took place from Oct 14, 2022 6:00 AM to Oct 15, 2022 6:00 AM
+*An auto review will be launched at the deadline
 
 ## General
 - Why C programming is awesome
@@ -15,41 +15,42 @@ An auto review will be launched at the deadline
 - How to print text using printf, puts and putchar
 - How to get the size of a specific type using the unary operator sizeof
 - How to compile using gcc
-What is the default program name when compiling with gcc
-What is the official C coding style and how to check your code with betty-style
-How to find the right header to include in your source code when using a standard library function
-How does the main function influence the return value of the program
-Copyright - Plagiarism
-You are tasked to come up with solutions for the tasks below yourself to meet with the above learning objectives.
-You will not be able to meet the objectives of this or any following project by copying and pasting someone else’s work.
-You are not allowed to publish any content of this project.
-Any form of plagiarism is strictly forbidden and will result in removal from the program.
+- What is the default program name when compiling with gcc
+- What is the official C coding style and how to check your code with betty-style
+- How to find the right header to include in your source code when using a standard library function
+- How does the main function influence the return value of the program
+- Copyright - Plagiarism
+- You are tasked to come up with solutions for the tasks below yourself to meet with the above learning objectives.
+- You will not be able to meet the objectives of this or any following project by copying and pasting someone else’s work.
+- You are not allowed to publish any content of this project.
+- Any form of plagiarism is strictly forbidden and will result in removal from the program.
 
 ## Requirements
-C
-Allowed editors: vi, vim, emacs
-All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
-All your files should end with a new line
-A README.md file at the root of the repo, containing a description of the repository
-A README.md file, at the root of the folder of this project, containing a description of the project
-There should be no errors and no warnings during compilation
-You are not allowed to use system
-Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl
-Shell Scripts
-Allowed editors: vi, vim, emacs
-All your scripts will be tested on Ubuntu 20.04 LTS
-All your scripts should be exactly two lines long ($ wc -l file should print 2)
-All your files should end with a new line
-The first line of all your files should be exactly #!/bin/bash
-More Info
-Betty linter
-To run the Betty linter just with command betty <filename>:
+*C*
++ Allowed editors: vi, vim, emacs
++ All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
++ All your files should end with a new line
++ A README.md file at the root of the repo, containing a description of the repository
++ A README.md file, at the root of the folder of this project, containing a description of the project
++ There should be no errors and no warnings during compilation
++ You are not allowed to use system
++ Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl
+### Shell Scripts
++ Allowed editors: [vi, vim, emacs]
++ All your scripts will be tested on Ubuntu 20.04 LTS
++ All your scripts should be exactly two lines long ($ wc -l file should print 2)
++ All your files should end with a new line
++ The first line of all your files should be exactly *#!/bin/bash*
+## More Info
+### Betty linter
++ To run the Betty linter just with command *betty <filename>*:
 
-Go to the Betty repository
-Clone the repo to your local machine
-cd into the Betty directory
-Install the linter with sudo ./install.sh
-emacs or vi a new file called betty, and copy the script below:
+Go to the [Betty] repository
+Clone the [repo] to your local machine
+*cd* into the *Betty* directory
+Install the linter with *sudo ./install.sh*
+*emacs* or *vi* a new file called betty, and copy the script below:
+
 #!/bin/bash
 ### # Simply a wrapper script to keep you from having to use betty-style \n
 ### # and betty-doc separately on every item.
