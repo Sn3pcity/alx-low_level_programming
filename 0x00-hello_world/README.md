@@ -6,15 +6,15 @@ Project over - took place from Oct 14, 2022 6:00 AM to Oct 15, 2022 6:00 AM
 An auto review will be launched at the deadline
 
 ## General
-Why C programming is awesome
-Who invented C
-Who are Dennis Ritchie, Brian Kernighan and Linus Torvalds
-What happens when you type gcc main.c
-What is an entry point
-What is main
-How to print text using printf, puts and putchar
-How to get the size of a specific type using the unary operator sizeof
-How to compile using gcc
+- Why C programming is awesome
+- Who invented C
+- Who are Dennis Ritchie, Brian Kernighan and Linus Torvalds
+- What happens when you type gcc main.c
+- What is an entry point
+- What is main
+- How to print text using printf, puts and putchar
+- How to get the size of a specific type using the unary operator sizeof
+- How to compile using gcc
 What is the default program name when compiling with gcc
 What is the official C coding style and how to check your code with betty-style
 How to find the right header to include in your source code when using a standard library function
@@ -51,10 +51,10 @@ cd into the Betty directory
 Install the linter with sudo ./install.sh
 emacs or vi a new file called betty, and copy the script below:
 #!/bin/bash
-# Simply a wrapper script to keep you from having to use betty-style \n
-# and betty-doc separately on every item.
-# Originally by Tim Britton (@wintermanc3r), multiargument added by
-# Larry Madeo (@hillmonkey)
+### # Simply a wrapper script to keep you from having to use betty-style \n
+### # and betty-doc separately on every item.
+### #Originally by Tim Britton (@wintermanc3r), multiargument added by
+### #Larry Madeo (@hillmonkey)
 
 BIN_PATH="/usr/local/bin"
 BETTY_STYLE="betty-style"
