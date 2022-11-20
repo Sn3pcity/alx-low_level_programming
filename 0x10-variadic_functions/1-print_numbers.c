@@ -16,15 +16,15 @@ unsigned int s = 0;
 int nos;
 va_list sa;
 
+va_start(sa, n);
+for (s = 0; s < n; s++)
+nos + va_arg(sa, int);
+printf("%d", nos);
+
 if (separator == NULL)
 return;
 if (s < n - 1)
 printf("%s", separator);
-
-va_start(sa, n);
-for (s = 0; s < n; s++)
-nos = va_arg(sa, int);
-printf("%d", nos);
 
 printf("\n");
 va_end(sa);
