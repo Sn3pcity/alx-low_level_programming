@@ -32,10 +32,10 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 - Any form of plagiarism is strictly forbidden and will result in removal from the program.
 ## Requirements
 ### General
-- Allowed editors: [vi, vim, emacs]
-- All your files will be compiled on Ubuntu 20.04 LTS using _gcc_, using the options _-Wall -Werror -Wextra -pedantic -std=gnu89_
+- Allowed editors: `[vi, vim, emacs]`
+- All your files will be compiled on Ubuntu 20.04 LTS using _`gcc`_, using the options _`-Wall -Werror -Wextra -pedantic -std=gnu89_
 - All your files should end with a new line
-- A  _README.md_ file, at the root of the folder of the project
+- A `_README.md_` file, at the root of the folder of the project
 - There should be no errors and no warnings during compilation
 - You are not allowed to use _system_
-- Your code should use the [Betty] style. It will be checked using  _betty-style.pl_ and  _betty-doc.pl_ 
+- Your code should use the `[Betty]` style. It will be checked using  `_betty-style.pl_` and `_betty-doc.pl_`
