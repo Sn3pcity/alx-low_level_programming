@@ -20,7 +20,7 @@ va_start(sa, n);/**
 **/
 for (s = 0; s < n; s++)
 sum += va_arg(sa, int);
-  
+
 if (n == 0)
 return (0);
 
