@@ -19,7 +19,7 @@ va_list sa;
 va_start(sa, n);
 for (s = 0; s < n; s++)
 {
-nos + va_arg(sa, int);
+nos = va_arg(sa, int);
 printf("%d", nos);
 
 if (separator == NULL)
