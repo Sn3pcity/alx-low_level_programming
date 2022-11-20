@@ -1,52 +1,52 @@
-#include <stdio.h>
 #include "variadic_functions.h"
 #include <stdarg.h>
+#include <stdlib.h>
+#include <stdio.h>
 
 /**
- * print_all - FUNCTION PRINTING ALL NUMBERS
- *@format:  list of types of arguments passed to the function
- *@c: char
- *@I: integer
- *@f: float
- *@s: char  (if the string is NULL, print (nil) instead
- *@...: local declarations
- * Return: numbers
+ * print_all - A function prints anyting.
+ * @format: A list of type of arguments passed to the function.
+ * Return: Nothing
  */
 void print_all(const char * const format, ...)
-
 {
-int s = 0;
-char *str;
-va_list sa;
-
-va_start(sa, format);
-
+va_list ap;
+char *temp;
+int i = 0;
+va_start(ap, format);
 while (format == NULL)
 {
-printf("\t");
+printf("\n");
 return;
 }
-
-while (format[s])
-switch (format[s])
+while (format[i])
+{
+switch (format[i])
 {
 case 'c':
-printf("%c", va_arg(sa, int));
+printf("%c", (char) va_arg(ap, int));
+break;
+case 'i':
+printf("%d", va_arg(ap, int));
 break;
 case 'f':
-printf("%f", va_arg(sa, int));
-case 'i':
-printf("%d", va_arg(sa, int));
+printf("%f", (float) va_arg(ap, double));
+break;
 case 's':
-if (sa != NULL)
+temp = va_arg(ap, char*);
+if (temp != NULL)
 {
-printf("%s", sa);
+printf("%s", temp);
 break;
 }
 printf("(nil)");
 break;
 }
-s++;
-va_end(sa);
+if ((format[i] == 'c' || format[i] == 'i' || format[i] == 'f' ||
+format[i] == 's') && format[(i + 1)] != '\0')
+printf(", ");
+i++;
+}
+va_end(ap);
 printf("\n");
 }
