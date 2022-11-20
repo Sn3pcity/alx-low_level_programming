@@ -4,40 +4,8 @@ By: Julien Barbier
 Weight: 1
 Project over - took place from Oct 14, 2022 6:00 AM to Oct 15, 2022 6:00 AM
 An auto review will be launched at the deadline
-In a nutshell…
-Auto QA review: 41.0/41 mandatory & 9.55/12 optional
-Altogether:  179.58%
-Mandatory: 100.0%
-Optional: 79.58%
-Calculation:  100.0% + (100.0% * 79.58%)  == 179.58%
-Concepts
-For this project, we expect you to look at this concept:
 
-C programming
-
-Resources
-Read or watch:
-
-Everything you need to know to start with C.pdf (You do not have to learn everything in there yet, but make sure you read it entirely first)
-Dennis Ritchie
-“C” Programming Language: Brian Kernighan
-Why C Programming Is Awesome
-Learning to program in C part 1
-Learning to program in C part 2
-Understanding C program Compilation Process
-Betty Coding Style
-Hash-bang under the hood (Look at only after you finish consuming the other resources)
-Linus Torvalds on C vs. C++ (Look at only after you finish consuming the other resources)
-man or help:
-
-gcc
-printf (3)
-puts
-putchar
-Learning Objectives
-At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
-
-General
+<u>General</u>
 Why C programming is awesome
 Who invented C
 Who are Dennis Ritchie, Brian Kernighan and Linus Torvalds
@@ -56,6 +24,7 @@ You are tasked to come up with solutions for the tasks below yourself to meet wi
 You will not be able to meet the objectives of this or any following project by copying and pasting someone else’s work.
 You are not allowed to publish any content of this project.
 Any form of plagiarism is strictly forbidden and will result in removal from the program.
+
 Requirements
 C
 Allowed editors: vi, vim, emacs
