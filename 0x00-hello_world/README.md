@@ -5,7 +5,7 @@ Weight: 1
 Project over - took place from Oct 14, 2022 6:00 AM to Oct 15, 2022 6:00 AM
 An auto review will be launched at the deadline
 
-<u>General</u>
+# General
 Why C programming is awesome
 Who invented C
 Who are Dennis Ritchie, Brian Kernighan and Linus Torvalds
@@ -25,7 +25,7 @@ You will not be able to meet the objectives of this or any following project by 
 You are not allowed to publish any content of this project.
 Any form of plagiarism is strictly forbidden and will result in removal from the program.
 
-Requirements
+# Requirements
 C
 Allowed editors: vi, vim, emacs
 All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
@@ -51,7 +51,7 @@ cd into the Betty directory
 Install the linter with sudo ./install.sh
 emacs or vi a new file called betty, and copy the script below:
 #!/bin/bash
-# Simply a wrapper script to keep you from having to use betty-style
+# Simply a wrapper script to keep you from having to use betty-style \n
 # and betty-doc separately on every item.
 # Originally by Tim Britton (@wintermanc3r), multiargument added by
 # Larry Madeo (@hillmonkey)
