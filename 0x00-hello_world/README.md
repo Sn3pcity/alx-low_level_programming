@@ -1,11 +1,11 @@
-0x00. C - Hello, World
+# 0x00. C - Hello, World
 C
 By: Julien Barbier
 Weight: 1
 Project over - took place from Oct 14, 2022 6:00 AM to Oct 15, 2022 6:00 AM
 An auto review will be launched at the deadline
 
-# General
+## General
 Why C programming is awesome
 Who invented C
 Who are Dennis Ritchie, Brian Kernighan and Linus Torvalds
@@ -25,7 +25,7 @@ You will not be able to meet the objectives of this or any following project by 
 You are not allowed to publish any content of this project.
 Any form of plagiarism is strictly forbidden and will result in removal from the program.
 
-# Requirements
+## Requirements
 C
 Allowed editors: vi, vim, emacs
 All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
