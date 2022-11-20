@@ -1,9 +1,9 @@
 0x00. C - Hello, World
 C
- By: Julien Barbier
- Weight: 1
- Project over - took place from Oct 14, 2022 6:00 AM to Oct 15, 2022 6:00 AM
- An auto review will be launched at the deadline
+By: Julien Barbier
+Weight: 1
+Project over - took place from Oct 14, 2022 6:00 AM to Oct 15, 2022 6:00 AM
+An auto review will be launched at the deadline
 In a nutshell…
 Auto QA review: 41.0/41 mandatory & 9.55/12 optional
 Altogether:  179.58%
