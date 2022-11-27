@@ -6,12 +6,6 @@
  */
 int main(void)
 {
-char s = "_putchar";
+char *sh = "_putchar";
 
-{
-printf("%c", s);
-}
-_putchar('\n');
 
-return (0);
-}
