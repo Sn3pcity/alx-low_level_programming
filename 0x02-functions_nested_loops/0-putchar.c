@@ -9,7 +9,6 @@ int main(void)
 {
 char *s = "_putchar";
 
-while (*s)
 do {
 _putchar(*s);
 s++;
