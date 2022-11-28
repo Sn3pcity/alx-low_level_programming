@@ -1,8 +1,8 @@
-0x12. C - Singly linked lists
+# 0x12. C - Singly linked lists
 
 C
 
-Algorithm
+ Algorithm
 
 Data structure
 
@@ -10,25 +10,20 @@ Data structure
 
  Weight: 1
 
- Project will start Nov 28, 2022 6:00 AM, must end by Nov 29, 2022 6:00 AM
+ - Project will start Nov 28, 2022 6:00 AM, must end by Nov 29, 2022 6:00 AM
 
- was released at Nov 28, 2022 12:00 PM
+ - Was released at Nov 28, 2022 12:00 PM
 
- An auto review will be launched at the deadline
+- An auto review will be launched at the deadline
 
-Concepts
+## Concepts
 
-For this project, we expect you to look at this concept:
-
-
+- For this project, we expect you to look at this concept:
 
 Data Structures
 
 
-
-
-
-Resources
+## Resources
 
 Read or watch:
 
@@ -40,13 +35,13 @@ Google
 
 Youtube
 
-Learning Objectives
+### Learning Objectives
 
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
 
 
-General
+# General
 
 When and why using linked lists vs arrays
 
