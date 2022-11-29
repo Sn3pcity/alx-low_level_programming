@@ -1,7 +1,7 @@
 #ifndef MAIN_H
-#define MAIN_H
+#define MAIN
 
-/*
+/**
  * File: main.h
  * Auth: Sn3pcity
  * Desc: Header file contains declarations for all functions
