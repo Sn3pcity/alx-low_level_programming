@@ -23,8 +23,15 @@ return (_prime(n, n / 2));
 int _prime(int n, int s)
 {
 if (s == 1)
+{
 return (1);
+}
 if (n % s == 0)
+{
 return (0);
+}
+else
+{
 return (_prime(n, s - 1));
+}
 }
