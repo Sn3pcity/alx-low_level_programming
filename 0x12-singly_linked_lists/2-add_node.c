@@ -16,12 +16,15 @@ if (!temp)
 {
 return (NULL);
 }
+else
+{
 temp->str = strdup(str);
 temp->len = len_str(str);
 temp->next = *head;
 
 *head = temp;
 return (temp);
+}
 }
 
 /**
